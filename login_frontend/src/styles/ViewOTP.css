@@ -1,0 +1,98 @@
+.view-otp-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ececec;
+  padding: 1rem;
+}
+
+.otp-card-container {
+  width: 100%;
+  max-width: 420px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.menu-dots {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.otp-card {
+  padding: 2rem;
+  text-align: center;
+}
+
+.otp-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.email {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.view-otp-btn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.view-otp-btn:hover {
+  background-color: #333;
+}
+
+.otp-display {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.timer {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.time-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.otp-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.email-bottom {
+  margin-top: 1.5rem;
+  color: #999;
+}
